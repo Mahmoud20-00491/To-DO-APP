@@ -91,55 +91,54 @@ class _LabelsPageState extends State<LabelsPage> {
                 ),
               ),
               const SizedBox(
-                height: 30,
+                height: 20,
               ),
               Expanded(
-                child: ListView.builder(
-                  itemCount: labelsName.length,
-                  itemBuilder: (context, index) {
-                    return Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: SizedBox(
-                        child: GestureDetector(
-                          onTap: () {
-                            navigateToPage(labelsName[index]["labelName"]!);
-                          },
-                          child: Container(
-                            alignment: Alignment.center,
-                            height: 80,
-                            decoration: BoxDecoration(
-                              color: Colors.deepPurple,
-                              borderRadius: BorderRadius.circular(20),
-                            ),
-                            child: Padding(
-                              padding:
-                                  const EdgeInsets.symmetric(horizontal: 16.0),
-                              child: Row(
-                                children: [
-                                  Image.asset(
-                                    labelsName[index]["labelImg"]!,
-                                    height: 50,
-                                    width: 50,
-                                  ),
-                                  SizedBox(
-                                    width: 20,
-                                  ),
-                                  Text(
-                                    labelsName[index]["labelName"]!,
-                                    style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.w600,
-                                      color: Colors.white,
-                                    ),
-                                  ),
-                                ],
+                child: GridView.count(
+                  crossAxisCount: 2,
+                  padding: EdgeInsets.symmetric(horizontal: 8.0),
+                  mainAxisSpacing: 8.0,
+                  crossAxisSpacing: 10.0,
+                  // Adjust the aspect ratio for smaller containers
+                  children: labelsName.map((label) {
+                    return GestureDetector(
+                      onTap: () {
+                        navigateToPage(label["labelName"]!);
+                      },
+                      child: Container(
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                          color: Colors.deepPurple,
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Image.asset(
+                                label["labelImg"]!,
+                                height: 70,
+                                width: 70,
                               ),
-                            ),
+                              SizedBox(
+                                height: 15,
+                              ),
+                              Text(
+                                label["labelName"]!,
+                                style: TextStyle(
+                                  fontSize:
+                                      18, // Adjust the font size for smaller text
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ),
                     );
-                  },
+                  }).toList(),
                 ),
               ),
             ],

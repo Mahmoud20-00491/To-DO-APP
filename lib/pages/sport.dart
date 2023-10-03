@@ -125,7 +125,7 @@ class _SportPageState extends State<SportPage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'lib/images/check.png',
+                'lib/images/sports.png',
                 height: 100,
                 width: 100,
               ),

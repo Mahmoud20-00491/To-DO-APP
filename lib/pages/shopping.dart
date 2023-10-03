@@ -124,7 +124,7 @@ class _ShoppingPageState extends State<ShoppingPage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'lib/images/check.png',
+                'lib/images/shopping.png',
                 height: 100,
                 width: 100,
               ),

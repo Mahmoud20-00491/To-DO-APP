@@ -1,3 +1,4 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:non_app/lables.dart';
@@ -17,7 +18,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: LabelsPage());
+    return MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: AnimatedSplashScreen(
+            splash: 'lib/images/check.png',
+            splashIconSize: 100,
+            backgroundColor: Colors.grey[200]!,
+            nextScreen: LabelsPage(),
+            splashTransition: SplashTransition.fadeTransition));
   }
 }

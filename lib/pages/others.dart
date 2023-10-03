@@ -124,7 +124,7 @@ class _OthersPageState extends State<OthersPage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'lib/images/check.png',
+                'lib/images/other.png',
                 height: 100,
                 width: 100,
               ),

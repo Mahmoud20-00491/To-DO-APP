@@ -124,7 +124,7 @@ class _WorkPageState extends State<WorkPage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'lib/images/check.png',
+                'lib/images/working.png',
                 height: 100,
                 width: 100,
               ),

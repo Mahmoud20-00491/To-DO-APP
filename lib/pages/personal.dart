@@ -124,7 +124,7 @@ class _PersonalPageState extends State<PersonalPage> {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Image.asset(
-                'lib/images/check.png',
+                'lib/images/man.png',
                 height: 100,
                 width: 100,
               ),
