@@ -1,6 +1,6 @@
-# non_app
+# Flutter To DO App
 
-A new Flutter project.
+A basic to-do app built with Flutter. This app has add/delete/update functinality.
 
 ## Getting Started
 
