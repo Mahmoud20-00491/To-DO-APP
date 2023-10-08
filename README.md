@@ -5,12 +5,16 @@ A basic to-do app built with Flutter. This app has add/delete/update functinalit
 
 # ScreenShots
 
-![Mockup1](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/d6c8793e-4dbf-4378-95e7-af88411cd436)
-![Screenshot_1696800944](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/c0c5cf3f-b9ab-4942-819c-7eb7f829b780)
-![Screenshot_1696800941](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/c078d535-aaaa-414e-a055-09ab6d870209)
-![Screenshot_1696800931](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/a2907967-5c91-4778-b0e4-a4bbc70cff80)
-![Screenshot_1696800927](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/ea16613f-5e7a-4a43-9d66-4c0e369ff5fc)
-![Screenshot_1696800924](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/28ce0d11-485a-4c44-bdae-ab1cd49e13cf)
+![Mockup1](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/88dfcfda-c8c6-491a-a51d-d146732f1243)
+![Untitled-1](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/1b0dbd1a-6232-4e68-a86c-56f1c881df77)
+![Untitled-2](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/2dbc1776-7dbe-4460-92d3-f6c9c1640106)
+![Untitled-3](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/fd5a0cfe-badc-4800-ab7f-f22e944ff590)
+![Untitled-4](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/25110c20-bd24-4ec4-9391-4ce92518bca1)
+![Untitled-5](https://github.com/Mahmoud20-00491/To-DO-APP/assets/121718282/4643d9a8-4c30-4bea-8316-c2ce632e0ecb)
+
+
+
+
 
 
 
